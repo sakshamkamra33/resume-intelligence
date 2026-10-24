@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+.vscode/
+.models/
+.pytest_cache/
+
+# Private data: faculty directory (deploy as a Render secret file) and personal resumes
+data/professors.csv
+tests/*.pdf
+*.resume.pdf
+data/faculty_vectors.npz
